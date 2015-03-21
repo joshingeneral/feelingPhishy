@@ -2,6 +2,9 @@
 This tool allows you to create a spam campaign against your users so you can train them not to click on real spam. 
 A Demo site can be found at http://feelingphishy.com
 
+# Special Thanks
+- Thanks go to Kim from UNC Charlotte for expressing her need for a tool like this, and prompting me to start building it one night. NovaHackers for allowing me to get the presentation a test run, and CarolinaCon for giving me the stage to release the code. 
+
 #Legal things our lawyers make us say
 By using this code you agree to not hold joshingeneral or his affiliates liable for what you do with it. As such, you should only email those that you have been given permission to email by the individual holding the account or have been authorized by their authoritative parties. You should also read the state and local laws and country laws act in order to ensure compliance and not face legal fines, much of which is covered by the CAN-SPAM act of 2003 in the US. 
 
