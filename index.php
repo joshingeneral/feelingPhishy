@@ -46,7 +46,7 @@
 		 if you have access to source code. 
 		 <br>
 		 <br> Results will be exported to:
-         <a href='results.php'>CSV</a>
+         <a href='results.php'>CSV</a> | Source Code found here: <a href='https://github.com/joshingeneral/feelingPhishy'>https://github.com/joshingeneral/feelingPhishy</a>
          <br>
 			Hope you enjoy, <br>
 			JoshInGeneral 
@@ -90,7 +90,7 @@ INSERTNAME
 	</tr>
 	<tr>
 	<td colspan="2" id="credits" name="credits">
-		Ideas and main code designed by JoshInGeneral, by using this site you agree to hold him and his affiliates not liable for any content sent or use there of | parts contributed from <a href='https://www.flickr.com/photos/taylar/6491184167/'>https://www.flickr.com/photos/taylar/6491184167/</a> & <a href='http://jqueryui.com'>http://jqueryui.com</a>
+		Ideas and main code designed by JoshInGeneral, by using this site you agree to hold him and his affiliates not liable for any content sent or use there of | parts contributed from <a href='https://www.flickr.com/photos/taylar/6491184167/'>https://www.flickr.com/photos/taylar/6491184167/</a>, <a href='http://jqueryui.com'>http://jqueryui.com</a> & <a href='http://ckeditor.com'>http://ckeditor.com</a>
 		<br> Licensed under the MIT Licensing standard <a href='http://choosealicense.com/licenses/mit'>http://choosealicense.com/licenses/mit</a>
 	</td>
 	</tr>
