@@ -1,7 +1,7 @@
 <html>
 <head>
 	<title>
-	Feeling Phishy - sendEmail Script
+	Feeling Phishy - Send Email (Version 1.4)
 	</title>
 		<link rel="stylesheet" href="style.css">
 </head>
@@ -59,7 +59,7 @@
 		{
 			$cacheMD5=md5($salt.$logKey.$salt);
 			$cache="&cache=$cacheMD5";
-		}
+		} 
 		
 		//date to show for this page
 		$todayis = date("l, F j, Y, g:i a") ;
@@ -79,6 +79,11 @@
 		// replace the links commands with the right link to catch the click, tagged with md5 of email
 		$message = str_replace("[link]","<a href=\"http://$path/image.php?e=$landingPageError&a=$md5sum"."$cache\">",$message);
 		$message = str_replace("[/link]","</a>",$message);
+		// replace a tag's URL with the right link to catch the click, tagged with md5 of email
+		$message = str_replace("[url]","http://$path/image.php?e=$landingPageError&a=$md5sum"."$cache",$message);
+		// replace the tag with the email user name for the email
+		$toEmailVar1=preg_replace("/\@.*/","$1",$toEmail);
+		$message = str_replace("[email]","$toEmailVar1",$message);
 		// replace image placeholder with correct url to collect information, tagged with md5 of email
 		$message = str_replace("[image]","<img src=\"http://$path/image.php?e=$landingPageError&img=$md5sum"."$cache\">",$message);
 		$message = str_replace("/sendEmail.php","",$message);

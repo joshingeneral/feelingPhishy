@@ -1,7 +1,7 @@
 <html>
 <head>
 	<title>
-	Feeling Phishy
+	Feeling Phishy - Home (Version 1.4)
 	</title>
 	<!-- Main Stylesheet -->
 	<link rel="stylesheet" href="style.css">
@@ -29,21 +29,26 @@
     <tr>
     <td id="leftShark">
 		<img width="460" src="images/6491184167_2eb38dd07d_b.jpg">
-         <br> This project allows system admins to run a spam campaign against their users, and view metrics. (Version 1.3). 
+         <br> This project allows system admins to run a spam campaign against their users, and view metrics. (Version 1.4). 
          <br>
 		 <br> All of the stats will be based on a md5 generated code in the form of parts of the message with the [link] or [image] tag.
 		 <br>
          <br> - Multiple emails can be entered in the form of example1@domain.com,example2@domain.com
 		 <br>
          <br> - [image] will allow logging to see when the user views the email if they have external images turned on. 
+		 <br>		
+         <br> - [url] will insert a specially crafted URL without any tags. 
 		 <br>
-		 <br> - [link]CONTENT[/link] will provide
-         a link to a page that you wish the user to go to. Later versions will include custom text on this page hidden in a base64 code. 
+		 <br>		
+         <br> - [email] will allow you to insert the email of each receiver. 
+		 <br>
+		 <br> - [link]CONTENT[/link] will provide a link to the specially crafted page to log user clicks.
 		 <br>
 		 <br> - Date to deliver email will allow for sending email in the past or future, your mileage may very. Recommend testing before full deployment.
 		 <br>
-		 <br> - Templates can be found by clicking the icon next to source, additional ones may be added by editing: /ckeditor/plugins/templates/templates/defaults.js 
-		 if you have access to source code. 
+		 <br> - Templates can be found by clicking the icon next to source, add more by editing: /ckeditor/plugins/templates/templates/defaults.js 
+		 <br>
+		 <br> - Use the image icon on the right to upload a image in Base64.
 		 <br>
 		 <br> Results will be exported to:
          <a href='results.php'>CSV</a> | Source Code found here: <a href='https://github.com/joshingeneral/feelingPhishy'>https://github.com/joshingeneral/feelingPhishy</a>
@@ -63,7 +68,7 @@
 			With Subject:
 				<br><input type="text" name="sendSubject" id="sendSubject"  value="Important message">
 			Date to Deliver Email:
-				<br><input type="text" id="sendDate" name="sendDate" value="Fri, 18 Dec 2014">
+				<br><input type="text" id="sendDate" name="sendDate" value="Fri, 4 Apr 2015">
 			Time to Deliver Email:
 				<br><input type="text" id="sendTime" name="sendTime" value="00:00:00 -0700">
 			Error to Display: 
