@@ -8,11 +8,11 @@ def main(argv):
    try:
       opts, args = getopt.getopt(argv,"hi:l:",["ifile=","lfile="])
    except getopt.GetoptError:
-      print 'test.py -i <inputfile> -l <logfile>'
+      print 'FeelingPhishyEmailParser.py -i <inputfile> -l <logfile>'
       sys.exit(2)
    for opt, arg in opts:
       if opt == '-h':
-         print 'test.py -i <emaillistfile> -l <logfile>'
+         print 'FeelingPhishyEmailParser.py -i <emaillistfile> -l <logfile>'
          sys.exit()
       elif opt in ("-i", "--ifile"):
          inputfile = arg
