@@ -47,3 +47,11 @@ Step 5 - Open the admin key email
         
 Step 6 - In the words of porky pig, "That's all folkes!" 
 
+#Output Email Parser
+When emails are sent out, we tag the email url and image with a md5+salt representation of the email. 
+In order to get this back into something human redable you can use the python script created in the "EmailParser" Folder
+Step 1 - Put the list of emails phished in a file with one email per line.
+Step 2 - Download the output of the email tracking csv.
+Step 3 - Run FeelingPhishyEmailParser.py -i <emaillistfile> -l <logfile>
+Step 4 - Enjoy knowing who got phished :-)
+
