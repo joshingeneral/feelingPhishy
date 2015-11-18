@@ -55,7 +55,7 @@ Step 1 - Put the list of emails phished in a file with one email per line.
 
 Step 2 - Download the output of the email tracking csv.
 
-Step 3 - Run FeelingPhishyEmailParser.py -i <emaillistfile> -l <logfile>
+Step 3 - Run FeelingPhishyEmailParser.py -i \<emaillistfile\> -l \<logfile\>
 
 Step 4 - Enjoy knowing who got phished :-)
 
